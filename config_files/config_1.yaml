@@ -1,0 +1,22 @@
+room_name: BigRecRoom
+env_system: 1 # the ID of the environmental system (single control setup connected to up to 8 boxes)
+sunrise:   # time should be in the following format 'h:m' for instance 5:45:21 or 21:6 (which will give you 21:06:00). 
+sunset:  # Do not put a zero before an hour/minute time marker as in 05:06, just write 5:6.
+stable_date:  # the date should be in the following format : 'yyyy/mm/dd', i.e. '2022/01/02' 
+days_offset: 0 # Note! days_offset and hours_offset should always be given a value. For default mode just set 0 in both.
+Hours_offset: 0
+sensorOutputBasePath: /Users/cohenlab/Desktop/control_main_code_test/arduinoData
+sensorDataReadingAndSaving: 0
+scaleOutputBasePath: /Users/cohenlab/Desktop/control_main_code_test/scaleData
+scaleDataReadingAndSaving: 1
+sendWeightReportToSlackTime: 
+# CHANNELS 1-8: enter the name of the bird connected to each MUX channel. This will be used to create a folder for each bird and store its weight reports. 
+# Leave non-connected channels empty.
+channel0: 
+channel1: 
+channel2: 
+channel3: 
+channel4: 'testy'
+channel5:
+channel6: 
+channel7: 
