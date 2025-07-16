@@ -82,7 +82,7 @@ sudo nano /etc/fstab
 ```
 At the bottom of the file add the following line:
 ```
-//isi.storwis.weizmann.ac.il/labs/cohen /mnt/path/to/mount/point cifs noauto,users,credentials=/PATH/to/cred,dir_mode=0777,file_mode=0777,noserverino,x-systemd.automount 0 0
+//isi.storwis.weizmann.ac.il/labs/cohen /mnt/path/to/mount/point cifs users,credentials=/PATH/to/cred,dir_mode=0777,file_mode=0777,noserverino,x-systemd.automount 0 0
 ```
 Change the path to the mount point and to the credentials file. 
 
